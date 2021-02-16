@@ -8,14 +8,17 @@
       </b-link>
       <SidebarToggler class="d-md-down-none" display="lg" :defaultOpen=true />
       <b-navbar-nav class="d-md-down-none">
-        <b-nav-item class="px-3" to="/theme/colors" exact>Foundations</b-nav-item>
+        <b-nav-item class="px-3" to="/foundation/" exact>Foundation</b-nav-item>
         <b-nav-item class="px-3" to="/base/" exact>Components</b-nav-item>
+        <b-nav-item class="px-3" to="/dashboard" exact>Page Sample</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <DefaultHeaderDropdownAccnt/>
+        <!-- <DefaultHeaderDropdownAccnt/> -->
       </b-navbar-nav>
+      <!--
       <AsideToggler class="d-none d-lg-block" />
-      <!--<AsideToggler class="d-lg-none" mobile />-->
+      <AsideToggler class="d-lg-none" mobile />
+      -->
     </AppHeader>
     <div class="app-body">
       <AppSidebar fixed>

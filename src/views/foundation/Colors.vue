@@ -19,7 +19,6 @@
         </b-row>
       </b-card-body>
     </b-card>
-
     <b-card header-tag="header">
       <div slot="header">
         <i class="icon-drop"></i> Grays
