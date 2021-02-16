@@ -2,6 +2,51 @@
   <div class="animated fadeIn">
     <b-card header-tag="header">
       <div slot="header">
+      Primary Color (Cashbac Blue)
+      </div>
+      <b-card-body>
+        <div style="background:#E9F6FC; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >CASHBAC10</h3>
+            <p>HEX: #E9F6FC</p>
+            
+          </div>
+        </div>
+        <div style="background:#51BDE9; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >CASHBAC40</h3>
+            <p>HEX: #51BDE9</p>
+            
+          </div>
+        </div>
+        <div style="background:#26ade4; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >CASHBAC50</h3>
+            <p>HEX: #26ADE4</p>
+            
+          </div>
+        </div>
+        <div style="background:#1E8AB6; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >CASHBAC60</h3>
+            <p>HEX: #1E8AB6</p>
+            
+          </div>
+        </div>
+        <div style="background:#166788; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >CASHBAC80</h3>
+            <p>HEX: #166788</p>
+            
+          </div>
+        </div>
+      </b-card-body>
+    </b-card>
+
+          
+
+    <b-card header-tag="header">
+      <div slot="header">
         <i class="icon-drop"></i> Theme colors
       </div>
       <b-card-body>

@@ -2,7 +2,7 @@
   <div class="animated fadeIn">
     <!-- HERO -->
     <div>
-      <b-jumbotron bg-variant="light" text-variant="black" border-variant="light">
+      <b-jumbotron bg-variant="white" text-variant="black" border-variant="">
         <template slot="header">
           Cashbac Web UI Kit
         </template>
@@ -14,26 +14,27 @@
       </b-jumbotron>
     </div>
 
-    <!-- HERO -->
+    <!-- HERO END -->
+
     <b-row>
       <b-col sm="6" md="4">
         <b-card>
-          <i class="icon-layers icons font-2xl d-block mt-4"></i>
+          <i class="icon-badge icons font-2xl d-block mt-4"></i>
           <p> </p>
           <h3>Foundation</h3>
           <p> Get to know how we use Web UI Kit, to build products at Cashbac.</p>
           <p> </p>
-          <b-button size="lg" variant="primary" block>Get Started</b-button>
+          <b-button size="lg" variant="primary" block to="/foundation/">Get Started</b-button>
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <i class="icon-badge icons font-2xl d-block mt-4"></i>
+          <i class="icon-layers icons font-2xl d-block mt-4"></i>
           <p> </p>
           <h3>Components</h3>
           <p>Get to know components in Cashbac Web UI Kit.</p>
           <p></p>
-          <b-button size="lg" variant="primary" block>See Components</b-button>  
+          <b-button size="lg" variant="primary" block to="/base/">See Components</b-button>  
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
@@ -43,7 +44,7 @@
           <h3>Page Sample</h3>
           <p> Various page samples that developed for best practice using Web UI Kit</p>
           <p></p>
-          <b-button size="lg" variant="primary" block>See Samples</b-button>
+          <b-button size="lg" variant="primary" block to="/dashboard">See Samples</b-button>
         </b-card>
       </b-col>
       <b-col sm="6" md="4">

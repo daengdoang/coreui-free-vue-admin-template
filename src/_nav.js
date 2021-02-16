@@ -20,17 +20,17 @@ export default {
     {
       name: 'Colors',
       url: '/foundation/colors',
-      icon: 'icon-drop'
+      icon: 'icon-badge'
     },
     {
       name: 'Typography',
       url: '/foundation/typography',
-      icon: 'icon-pencil'
+      icon: 'icon-badge'
     },
     {
       name: 'Icons',
       url: '/icons',
-      icon: 'icon-star',
+      icon: 'icon-badge',
       children: [
         {
           name: 'CoreUI Icons',
@@ -60,7 +60,7 @@ export default {
     {
       name: 'Spacing',
       url: '/foundation/spacing',
-      icon: 'icon-pencil',
+      icon: 'icon-badge',
       badge: {
         variant: 'success',
         text: 'DRAFT'
@@ -130,7 +130,7 @@ export default {
     {
       name: 'Buttons',
       url: '/buttons',
-      icon: 'icon-cursor',
+      icon: 'icon-puzzle',
       children: [
         {
           name: 'Buttons',
@@ -157,7 +157,7 @@ export default {
     {
       name: 'Forms',
       url: '/base/forms',
-      icon: 'icon-cursor',
+      icon: 'icon-puzzle',
       children: [
         {
           name: 'Forms',
@@ -211,7 +211,7 @@ export default {
     {
       name: 'Patterns',
       url: '/patterns',
-      icon: 'icon-star',
+      icon: 'icon-puzzle',
       children: [
         {
           name: 'Cards',
@@ -258,38 +258,38 @@ export default {
       name: 'Page Sample'
     },
     {
+      name: 'Login Page',
+      url: '/pages/login',
+      icon: 'icon-emotsmile'
+    },
+    {
+      name: 'Register Page',
+      url: '/pages/register',
+      icon: 'icon-emotsmile'
+    },
+    {
+      name: 'Error 404 Page',
+      url: '/pages/404',
+      icon: 'icon-emotsmile'
+    },
+    {
+      name: 'Error 500 Page',
+      url: '/pages/500',
+      icon: 'icon-emotsmile'
+    },
+    {
       name: 'Dashboard',
       url: '/dashboard',
-      icon: 'icon-speedometer',
+      icon: 'icon-emotsmile',
       badge: {
         variant: 'primary',
         text: 'NEW'
       }
     },
     {
-      name: 'Login',
-      url: '/pages/login',
-      icon: 'icon-star'
-    },
-    {
-      name: 'Register',
-      url: '/pages/register',
-      icon: 'icon-star'
-    },
-    {
-      name: 'Error 404',
-      url: '/pages/404',
-      icon: 'icon-star'
-    },
-    {
-      name: 'Error 500',
-      url: '/pages/500',
-      icon: 'icon-star'
-    },
-    {
       name: 'Go to Cashbac Web',
       url: 'http://cashbac.com/',
-      icon: 'icon-star',
+      icon: 'icon-emotsmile',
       class: 'mt-auto',	
       variant: 'success',	
       attributes: { target: '_blank', rel: 'noopener' }	
