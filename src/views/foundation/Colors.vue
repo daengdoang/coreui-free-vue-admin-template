@@ -106,6 +106,49 @@
 
     <b-card header-tag="header">
       <div slot="header">
+      Tosca - Shades and Tints
+      </div>
+      <b-card-body>
+        <div style="background:#EBFFFC; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >TOSCA10</h3>
+            <p>HEX: #EBFFFC</p>
+            
+          </div>
+        </div>
+        <div style="background:#00E0BF; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >TOSCA40</h3>
+            <p>HEX: #00E0BF</p>
+            
+          </div>
+        </div>
+        <div style="background:#00C4A6; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >TOSCA50</h3>
+            <p>HEX: #00C4A6</p>
+            
+          </div>
+        </div>
+        <div style="background:#228576; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >TOSCA60</h3>
+            <p>HEX: #228576</p>
+            
+          </div>
+        </div>
+        <div style="background:#0D4A41; width:180px; height:208px; display:inline-block; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+          <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
+            <h3 style="font-size: 14pt;" >TOSCA80</h3>
+            <p>HEX: #0D4A41</p>
+            
+          </div>
+        </div>
+      </b-card-body>
+    </b-card>
+
+    <b-card header-tag="header">
+      <div slot="header">
       BLACK - Shades and Tints
       </div>
       <b-card-body>
