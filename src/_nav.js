@@ -19,12 +19,12 @@ export default {
     },
     {
       name: 'Colors',
-      url: '/theme/colors',
+      url: '/foundation/colors',
       icon: 'icon-drop'
     },
     {
       name: 'Typography',
-      url: '/theme/typography',
+      url: '/foundation/typography',
       icon: 'icon-pencil'
     },
     {
@@ -59,8 +59,12 @@ export default {
     },
     {
       name: 'Spacing',
-      url: '/theme/spacing',
-      icon: 'icon-pencil'
+      url: '/foundation/spacing',
+      icon: 'icon-pencil',
+      badge: {
+        variant: 'success',
+        text: 'DRAFT'
+      }
     },
     {
       title: true,
@@ -158,7 +162,11 @@ export default {
         {
           name: 'Forms',
           url: '/base/forms',
-          icon: 'icon-puzzle'
+          icon: 'icon-puzzle',
+          badge: {
+            variant: 'success',
+            text: 'DRAFT'
+          }
         }
       ]
     },

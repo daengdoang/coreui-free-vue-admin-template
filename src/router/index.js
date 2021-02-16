@@ -8,11 +8,11 @@ const DefaultContainer = () => import('@/containers/DefaultContainer')
 const Welcome = () => import('@/views/Welcome')
 const Dashboard = () => import('@/views/Dashboard')
 
-const Colors = () => import('@/views/theme/Colors')
-const Typography = () => import('@/views/theme/Typography')
 
-const Charts = () => import('@/views/Charts')
-const Widgets = () => import('@/views/Widgets')
+//Foundation
+const Colors = () => import('@/views/foundation/Colors')
+const Typography = () => import('@/views/foundation/Typography')
+const Spacing = () => import('@/views/foundation/Spacing')
 
 // Views - Components
 const Alerts = () => import('@/views/base/Alerts')
@@ -50,6 +50,8 @@ const Cards = () => import('@/views/patterns/Cards')
 const Carousels = () => import('@/views/patterns/Carousels')
 const Jumbotrons = () => import('@/views/patterns/Jumbotrons')
 const Modals = () => import('@/views/patterns/Modals')
+const Charts = () => import('@/views/Charts')
+const Widgets = () => import('@/views/Widgets')
 
 
 // Views - Pages
@@ -86,9 +88,9 @@ export default new Router({
           component: Dashboard
         },
         {
-          path: 'theme',
-          redirect: '/theme/colors',
-          name: 'Theme',
+          path: 'foundation',
+          redirect: '/foundation/colors',
+          name: 'Foundation',
           component: {
             render (c) { return c('router-view') }
           },
@@ -102,6 +104,11 @@ export default new Router({
               path: 'typography',
               name: 'Typography',
               component: Typography
+            },
+            {
+              path: 'spacing',
+              name: 'Spacing',
+              component: Spacing
             }
           ]
         },

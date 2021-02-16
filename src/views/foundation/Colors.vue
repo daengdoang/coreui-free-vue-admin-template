@@ -22,21 +22,6 @@
 
     <b-card header-tag="header">
       <div slot="header">
-        <i class="icon-drop"></i> Cashbac Blue
-      </div>
-      <b-card-body>
-        <b-row>
-          <color-theme color="bg-cashbac-10"><h6>Cashbac Blue 10</h6></color-theme>
-          <color-theme color="bg-cashbac-20"><h6>Cashbac Blue 20</h6></color-theme>
-          <color-theme color="bg-primary"><h6>Cashbac Blue</h6></color-theme>
-          <color-theme color="bg-cashbac-60"><h6>Cashbac Blue 60</h6></color-theme>
-          <color-theme color="bg-cashbac-80"><h6>Cashbac Blue 80</h6></color-theme>
-        </b-row>
-      </b-card-body>
-    </b-card>
-
-    <b-card header-tag="header">
-      <div slot="header">
         <i class="icon-drop"></i> Grays
       </div>
       <b-card-body>
