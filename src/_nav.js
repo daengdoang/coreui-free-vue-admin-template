@@ -62,8 +62,8 @@ export default {
       url: '/foundation/spacing',
       icon: 'icon-badge',
       badge: {
-        variant: 'secondary',
-        text: 'DRAFT'
+        variant: 'danger',
+        text: 'WIP'
       }
     },
     {
@@ -164,8 +164,8 @@ export default {
           url: '/base/forms',
           icon: 'icon-puzzle',
           badge: {
-            variant: 'secondary',
-            text: 'DRAFT'
+            variant: 'danger',
+            text: 'WIP'
           }
         }
       ]

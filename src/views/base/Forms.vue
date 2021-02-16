@@ -1,5 +1,8 @@
 <template>
   <div class="animated fadeIn">
+    <b-alert show dismissible>
+      Please note: This page is Work in Progress.
+    </b-alert>
     <b-row>
       <b-col sm="6">
         <b-card>
@@ -630,9 +633,9 @@
           <b-form-group>
             <b-input-group>
               <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-euro"></i></b-input-group-text>
+                <b-input-group-text>Rp</b-input-group-text>
               </b-input-group-prepend>
-              <b-form-input type="text" placeholder="ex. $1.000.000"></b-form-input>
+              <b-form-input type="text" placeholder="ex. Rp1.000.000"></b-form-input>
               <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
             </b-input-group>
           </b-form-group>
@@ -997,7 +1000,7 @@
                 <b-form-group label="Append and prepend" label-for="elementsPrependAppend" description="Here's some help text">
                   <b-input-group>
                     <b-input-group-prepend>
-                      <b-input-group-text>$</b-input-group-text>
+                      <b-input-group-text>Rp</b-input-group-text>
                     </b-input-group-prepend>
                     <b-form-input id="elementsPrependAppend" type="text"></b-form-input>
                     <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>

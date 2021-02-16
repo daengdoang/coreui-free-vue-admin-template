@@ -1,22 +1,31 @@
 <template>
   <div class="animated fadeIn">
+    
+    <b-alert show dismissible>
+      Please note: This page is Work in Progress [DRAFT].
+    </b-alert>
+
     <div class="card">
       <div class="card-header">
         Spacing
       </div>
       <div class="card-body">
-        <p>4pt</p>
-        <p>8pt</p>
-        <p>16pt</p>
-        <p>24pt</p>
-        <p>36pt</p>
-        <p>48pt</p>
+        <p>Our spacing is based on a 4-pixel grid, please use only these sizes:</p>
+        <p>4  xx-small</p>
+        <p>8  x-small</p>
+        <p>12 small</p>
+        <p>16 medium</p>
+        <p>24 large</p>
+        <p>32 x-large</p>
+        <p>40 xx-large</p>
+        <p>52 xxx-large</p>
+        
       </div>
     </div>
 
     <div class="card">
       <div class="card-header">
-        Grid System (12 Columns)
+        Grid System (12 Column)
       </div>
       <div class="card-body">
         <!-- 1 Column - Stack the columns on mobile by making one full-width and the other half-width -->

@@ -1,6 +1,9 @@
 <template>
   <div class="animated fadeIn">
     <!-- HERO -->
+  <b-alert show dismissible>
+    Welcome to Cashbac Web UI Kit. Please note: This is for internal purpose usage only.
+  </b-alert>
     <div>
       <b-jumbotron bg-variant="white" text-variant="black" border-variant="">
         <template slot="header">
