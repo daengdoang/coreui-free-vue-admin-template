@@ -35,21 +35,24 @@
     <div>
       <b-jumbotron bg-variant="white" text-variant="black" border-variant="">
         <template slot="lead">
-          🚀 Current quarter
+          🚀 Current quarter (Q4 of 2019)
           <p>
-          - Add Design Token
+          - Implement end-to-end tests for better coverage on cashbac-components 
           </p>
           <hr class="my-4">
           <br />
-          🏗 Next quarter or two
+          🏗 Next quarter or two (Q1 or Q2 of 2020)
           <p>
-          - Add Design Token
+          - Creating dark theme palette<br />
+          - Create library for landing pages cashbac[dot]com
           </p>
           <hr class="my-4">
           <br />
           🔮 Future
           <p>
           - Add Design Token
+          <br />
+          - Make open source this Cashbac Web UI Kit 
           </p>
   
         </template>

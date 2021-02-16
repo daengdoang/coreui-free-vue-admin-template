@@ -310,12 +310,20 @@ export default {
       icon: 'icon-docs'
     },
     {
-      name: 'Go to Cashbac Web',
+      name: 'Cashbac Web',
       url: 'http://cashbac.com/',
       icon: 'icon-globe',
       class: 'mt-auto',	
       variant: 'success',	
       attributes: { target: '_blank', rel: 'noopener' }	
     },
+    {
+      name: 'Cashbac App',
+      url: 'https://cashbac.onelink.me/1sXQ/homepage',
+      icon: 'icon-globe',
+      class: 'mt-auto',	
+      variant: 'success',	
+      attributes: { target: '_blank', rel: 'noopener' }	
+    }
   ]
 }
