@@ -46,7 +46,7 @@ export default {
           url: '/icons/font-awesome',
           icon: 'icon-star',
           badge: {
-            variant: 'secondary',
+            variant: 'info',
             text: '4.7'
           }
         },
@@ -62,7 +62,7 @@ export default {
       url: '/foundation/spacing',
       icon: 'icon-badge',
       badge: {
-        variant: 'success',
+        variant: 'secondary',
         text: 'DRAFT'
       }
     },
@@ -164,7 +164,7 @@ export default {
           url: '/base/forms',
           icon: 'icon-puzzle',
           badge: {
-            variant: 'success',
+            variant: 'secondary',
             text: 'DRAFT'
           }
         }

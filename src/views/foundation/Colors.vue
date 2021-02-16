@@ -12,10 +12,10 @@
             
           </div>
         </div>
-        <div style="background:#4dbd74; width:180px; height:208px; display:inline-block; margin: 0 12px; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
+        <div style="background:#00C4A6; width:180px; height:208px; display:inline-block; margin: 0 12px; position:relative; z-index:0; box-shadow: 0 2px 4px rgb(0 0 0 / 10%); " class="color-card" >
           <div style="position: absolute; width: 100%; bottom: 8px; background:#fff; padding: 16px; line-height:0;" class="color-card__info" >
-            <h3 style="font-size: 14pt;" >GREEN50</h3>
-            <p>HEX: #4dbd74</p>
+            <h3 style="font-size: 14pt;" >TOSCA50</h3>
+            <p>HEX: #00C4A6</p>
             
           </div>
         </div>
