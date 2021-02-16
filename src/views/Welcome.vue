@@ -1,17 +1,20 @@
 <template>
   <div class="animated fadeIn">
-    <div class="card">
-      <div class="card-header">
-        Welcome!
-      </div>
-      <div class="card-body">
-        <h1>Cashbac Web UI Kit</h1>
-        <p>
+    <!-- HERO -->
+    <div>
+      <b-jumbotron bg-variant="light" text-variant="black" border-variant="light">
+        <template slot="header">
+          Cashbac Web UI Kit
+        </template>
+        <template slot="lead">
           This is a collection of guidelines and components which can be used to create amazing user experiences. 
           Foundations introduces you to Cashbac's principles while Components lists out the bits and pieces that make up Cashbac Design System.
-        </p>
-      </div>
+        </template>
+        <hr class="my-4">
+      </b-jumbotron>
     </div>
+
+    <!-- HERO -->
     <b-row>
       <b-col sm="6" md="4">
         <b-card>
