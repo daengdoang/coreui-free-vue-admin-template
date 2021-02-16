@@ -15,17 +15,17 @@ export default {
     {
       name: 'Welcome',
       url: '/welcome',
-      icon: ''
+      icon: 'icon-star'
     },
     {
       name: 'Roadmap',
       url: '/welcome',
-      icon: ''
+      icon: 'icon-star'
     },
     {
       name: 'Credit',
       url: '/welcome',
-      icon: ''
+      icon: 'icon-star'
     },
     {
       title: true,
