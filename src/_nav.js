@@ -4,6 +4,15 @@
 export default {
   items: [
     {
+      title: true,
+      name: 'Getting Started',
+      class: '',
+      wrapper: {
+        element: '',
+        attributes: {}
+      }
+    },
+    {
       name: 'Welcome',
       url: '/welcome',
       icon: 'icon-star'
