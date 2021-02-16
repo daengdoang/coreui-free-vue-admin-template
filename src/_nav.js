@@ -78,18 +78,13 @@ export default {
       children: [
         {
           name: 'Alerts',
-          url: '/notifications/alerts',
+          url: '/base/alerts',
           icon: 'icon-bell'
         },
         {
           name: 'Badges',
-          url: '/notifications/badges',
+          url: '/base/badges',
           icon: 'icon-bell'
-        },
-        {
-          name: 'Carousels',
-          url: '/base/carousels',
-          icon: 'icon-puzzle'
         },
         {
           name: 'Collapses',
@@ -129,15 +124,10 @@ export default {
       ]
     },
     {
-      name: 'Forms and Buttons',
-      url: '/base/forms',
+      name: 'Buttons',
+      url: '/buttons',
       icon: 'icon-cursor',
       children: [
-        {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'icon-puzzle'
-        },
         {
           name: 'Buttons',
           url: '/buttons/standard-buttons',
@@ -160,50 +150,69 @@ export default {
         }
       ]
     },
-    //NAVIGATION
+    {
+      name: 'Forms',
+      url: '/base/forms',
+      icon: 'icon-cursor',
+      children: [
+        {
+          name: 'Forms',
+          url: '/base/forms',
+          icon: 'icon-puzzle'
+        }
+      ]
+    },
+
+    //NAVIGATION (Breadcrumbs, Navs, Navbar, Paginations, Tabs)
+    
     {
       name: 'Navigation',
-      url: '/base',
+      url: '/navigation',
       icon: 'icon-puzzle',
       children: [
         {
           name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
+          url: '/navigation/breadcrumbs',
           icon: 'icon-puzzle'
         },
         {
           name: 'Navs',
-          url: '/base/navs',
+          url: '/navigation/navs',
           icon: 'icon-puzzle'
         },
         {
           name: 'Navbars',
-          url: '/base/navbars',
+          url: '/navigation/navbars',
           icon: 'icon-puzzle'
         },
         {
           name: 'Paginations',
-          url: '/base/paginations',
+          url: '/navigation/paginations',
           icon: 'icon-puzzle'
         },
         {
           name: 'Tabs',
-          url: '/base/tabs',
+          url: '/navigation/tabs',
           icon: 'icon-puzzle'
         },
       ]
     },
 
-    //PATTERNS
+    //PATTERNS (Card, Carousels, Chart, Jumbotrons, Modals, Widget)
 
     {
       name: 'Patterns',
-      url: '/base/cards',
+      url: '/patterns',
       icon: 'icon-star',
       children: [
         {
           name: 'Cards',
-          url: '/base/cards',
+          url: '/patterns/cards',
+          icon: 'icon-puzzle'
+        },
+        {
+          name: 'Carousels',
+          url: '/patterns/carousels',
           icon: 'icon-puzzle'
         },
         {
@@ -213,12 +222,12 @@ export default {
         },
         {
           name: 'Jumbotrons',
-          url: '/base/jumbotrons',
+          url: '/patterns/jumbotrons',
           icon: 'icon-puzzle'
         },
         {
           name: 'Modals',
-          url: '/notifications/modals',
+          url: '/patterns/modals',
           icon: 'icon-bell'
         },
         {
@@ -268,6 +277,14 @@ export default {
       name: 'Error 500',
       url: '/pages/500',
       icon: 'icon-star'
-    }
+    },
+    {
+      name: 'Go to Cashbac Web',
+      url: 'http://cashbac.com/',
+      icon: 'icon-star',
+      class: 'mt-auto',	
+      variant: 'success',	
+      attributes: { target: '_blank', rel: 'noopener' }	
+    },
   ]
 }
