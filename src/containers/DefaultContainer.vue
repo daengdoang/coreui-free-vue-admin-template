@@ -43,7 +43,7 @@
       <!--footer-->
       <div>
         <a href="https://daengdoang.com">Daeng Muhammad Feisal</a>
-        <span class="ml-1">&copy; 2019 - Cashbac Design Team</span>
+        <span class="ml-1">&copy; 2019 - Cashbac Product & UX Team</span>
       </div>
     </TheFooter>
   </div>

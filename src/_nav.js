@@ -322,7 +322,7 @@ export default {
       url: 'https://cashbac.onelink.me/1sXQ/homepage',
       icon: 'icon-globe',
       class: 'mt-auto',	
-      variant: 'success',	
+      variant: 'info',	
       attributes: { target: '_blank', rel: 'noopener' }	
     }
   ]

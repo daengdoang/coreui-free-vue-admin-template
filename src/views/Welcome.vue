@@ -54,6 +54,41 @@
         </b-card>
       </b-col>
     </b-row>
+    <!-- ROW 2 -->
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card >
+          <i class="icon-directions icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Roadmaps</h3>
+          <p> Current progress, next quarter plans and future dreams. All plans in one roof.</p>
+          <p></p>
+          <b-button size="lg" variant="primary" block to="/roadmap">See Roadmap</b-button>
+        </b-card>
+      </b-col>
+
+      <b-col sm="6" md="4">
+        <b-card>
+          <i class="icon-shield icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Brand</h3>
+          <p> Know the brand guidelines of Cashbac. From logo, assets and beyonds.</p>
+          <p> </p>
+          <b-button size="lg" variant="primary disabled" block>Read Guidelines</b-button>
+        </b-card>
+      </b-col>
+      
+      <b-col sm="6" md="4">
+        <b-card >
+          <i class="icon-bubbles icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Voice and Tones</h3>
+          <p>Get to know components in Cashbac Web UI Kit. Please read one by one carefully :)</p>
+          <p></p>
+          <b-button size="lg" variant="primary disabled" block>See Voice and Tones</b-button>  
+        </b-card>
+      </b-col>
+    </b-row>
   </div>
 </template>
 

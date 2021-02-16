@@ -19,7 +19,7 @@
         </template>
         <hr class="my-4">
         <p>
-          Interested in what’s planned for Orbit in the coming weeks and months?
+          Interested in what’s planned for Cashbac Web UI Kit in the coming weeks and months?
           <br />
           This is a good place to start. Roadmap contains delivery estimates only in quarter scope. 
           <br />
@@ -37,7 +37,11 @@
         <template slot="lead">
           🚀 Current quarter (Q4 of 2019)
           <p>
-          - Implement end-to-end tests for better coverage on cashbac-components 
+          - Implement end-to-end tests for better coverage on cashbac-components <br />
+          - Create library for Illustrations <br />
+          - Add Cashbac Brand Guidelines
+          <br />
+          - Add Changelog and component status page
           </p>
           <hr class="my-4">
           <br />
@@ -52,7 +56,8 @@
           <p>
           - Add Design Token
           <br />
-          - Make open source this Cashbac Web UI Kit 
+          - Make open source this Cashbac Web UI Kit <br />
+          - Add Foundation: Voice and Tones 
           </p>
   
         </template>
