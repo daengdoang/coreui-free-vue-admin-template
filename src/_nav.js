@@ -20,12 +20,12 @@ export default {
     {
       name: 'Roadmap',
       url: '/welcome',
-      icon: 'icon-star'
+      icon: 'icon-target'
     },
     {
       name: 'Credit',
       url: '/welcome',
-      icon: 'icon-star'
+      icon: 'icon-book-open'
     },
     {
       title: true,
