@@ -42,8 +42,8 @@
     <TheFooter>
       <!--footer-->
       <div>
-        <a href="https://daengdoang.com">Daeng M. Feisal</a>
-        <span class="ml-1">&copy; 2019 Cashbac Design</span>
+        <a href="https://daengdoang.com">Daeng Muhammad Feisal</a>
+        <span class="ml-1">&copy; 2019 - Cashbac Design Team</span>
       </div>
     </TheFooter>
   </div>
