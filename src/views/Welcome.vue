@@ -30,7 +30,7 @@
           <h3>Foundation</h3>
           <p> Know the foundation how to use Web UI Kit, to build web products at Cashbac.</p>
           <p> </p>
-          <b-button size="lg" variant="primary" block to="/foundation/">Get Started</b-button>
+          <b-button size="lg" variant="outline-primary" block to="/foundation/">Get Started</b-button>
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
@@ -40,7 +40,7 @@
           <h3>Components</h3>
           <p>Get to know components in Cashbac Web UI Kit. Please read one by one carefully :)</p>
           <p></p>
-          <b-button size="lg" variant="primary" block to="/base/">See Components</b-button>  
+          <b-button size="lg" variant="outline-primary" block to="/base/">See Components</b-button>  
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
@@ -50,7 +50,7 @@
           <h3>Page Sample</h3>
           <p> Various page samples that developed for best practice using Cashbac Web UI Kit</p>
           <p></p>
-          <b-button size="lg" variant="primary" block to="/dashboard">See Samples</b-button>
+          <b-button size="lg" variant="outline-primary" block to="/dashboard">See Samples</b-button>
         </b-card>
       </b-col>
     </b-row>
@@ -63,7 +63,7 @@
           <h3>Roadmaps</h3>
           <p> Current progress, next quarter plans and future dreams. All plans in one roof.</p>
           <p></p>
-          <b-button size="lg" variant="primary" block to="/roadmap">See Roadmap</b-button>
+          <b-button size="lg" variant="outline-primary" block to="/roadmap">See Roadmap</b-button>
         </b-card>
       </b-col>
 
@@ -71,10 +71,10 @@
         <b-card>
           <i class="icon-shield icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Brand</h3>
+          <h3 style="display: inline-block;">Brand</h3>&nbsp <b-badge style="display: inline-block; vertical-align: 50%;" variant="danger">WIP</b-badge> 
           <p> Know the brand guidelines of Cashbac. From logo, assets and beyonds.</p>
           <p> </p>
-          <b-button size="lg" variant="primary disabled" block>Read Guidelines</b-button>
+          <b-button size="lg" variant="outline-primary disabled" block>Read Guidelines</b-button>
         </b-card>
       </b-col>
       
@@ -82,10 +82,10 @@
         <b-card >
           <i class="icon-bubbles icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Voice and Tones</h3>
+          <h3 style="display: inline-block;">Voice and Tones</h3> &nbsp <b-badge style="display: inline-block; vertical-align: 50%;" variant="danger">WIP</b-badge>
           <p>Get to know components in Cashbac Web UI Kit. Please read one by one carefully :)</p>
           <p></p>
-          <b-button size="lg" variant="primary disabled" block>See Voice and Tones</b-button>  
+          <b-button size="lg" variant="outline-primary disabled" block>See Voice and Tones</b-button>  
         </b-card>
       </b-col>
     </b-row>

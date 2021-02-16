@@ -21,38 +21,49 @@
 
     <!-- HERO END -->
 
-    <b-row>
-      <b-col sm="6" md="4">
+    <b-card-group>
         <b-card>
-          <i class="icon-globe icons font-2xl d-block mt-4"></i>
+          <i class="icon-chart icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Cashbac Ops Dashboard</h3>
-          <p> Know the foundation how to use Web UI Kit, to build web products at Cashbac.</p>
+          <h3>Cashbac Ops Dashboard (Settlement and Promo) Squad</h3>
+          <br />
+          <ul>
+            <li>Daeng Muhammad Feisal <strong>(UI/UX Designer)</strong</li>
+            <li>Ignatius Oktaviardi <strong>(Front End Developer)</strong</li>
+            <li>Miftah Ramadhan <strong>(QA Engineer)</strong</li>
+            <li>Hilmiatun Nisa <strong>(Product Manager)</strong></li>
+          </ul>
           <p> </p>
-          <b-button size="lg" variant="primary" block to="/foundation/">Get Started</b-button>
         </b-card>
-      </b-col>
-      <b-col sm="6" md="4">
+        <b-card >
+          <i class="icon-chart icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Cashbac Merchant Dashboard Squad</h3>
+          <br />
+          <ul>
+            <li>Daeng Muhammad Feisal <strong>(UI/UX Designer)</strong</li>
+            <li>Cristyna Tan <strong>(UI/UX Designer and Illustrator)</strong</li>
+            <li>Rafiandra Widhiansyah <strong>(UI/UX Designer)</strong</li>
+            <li>Robby Hermansyah <strong>(Front End Developer)</strong</li>
+            <li>Andre "Gever" Pratama <strong>(Product Manager)</strong></li>
+          </ul>          
+          <p></p>  
+        </b-card>
         <b-card >
           <i class="icon-globe icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Merchant Dashboard</h3>
-          <p>Get to know components in Cashbac Web UI Kit. Please read one by one carefully :)</p>
+          <h3>Cashbac Landing Page Squad</h3>
+          <br />
+          <ul>
+            <li>Daeng Muhammad Feisal <strong>(UI/UX Designer)</strong</li>
+            <li>Febriana Afra Hanifah <strong>(Content Writer)</strong</li>
+            <li>Mary Chelsea <strong>(Marketing)</strong</li>
+            <li>Jepri Sinaga <strong>(Product Manager)</strong></li>
+          </ul>   
           <p></p>
-          <b-button size="lg" variant="primary" block to="/base/">See Components</b-button>  
         </b-card>
-      </b-col>
-      <b-col sm="6" md="4">
-        <b-card >
-          <i class="icon-globe icons font-2xl d-block mt-4"></i>
-          <p> </p>
-          <h3>Cashbac Landing Page</h3>
-          <p> Various page samples that developed for best practice using Cashbac Web UI Kit</p>
-          <p></p>
-          <b-button size="lg" variant="primary" block to="/dashboard">See Samples</b-button>
-        </b-card>
-      </b-col>
-    </b-row>
+    </b-card-group>
+    <br />
   </div>
 </template>
 
