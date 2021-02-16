@@ -1,14 +1,14 @@
 {
   "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "2.1.5",
-  "description": "Open Source Bootstrap Admin Template",
-  "author": "Łukasz Holeczek",
-  "homepage": "http://coreui.io",
-  "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
+  "version": "0.9.5",
+  "description": "Cashbac Web UI KIT",
+  "author": "Daeng Muhammad Feisal",
+  "homepage": "http://cashbac-uikit.dae.ng/",
+  "copyright": "Copyright 2019 Daeng Muhammad Feisal - Cashbac",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:coreui/coreui-free-vue-admin-template.git"
+    "url": "git@github.com:daengdoang/cashbac-uikit.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
