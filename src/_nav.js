@@ -1,17 +1,16 @@
+//Sidebar navigation
+//Daeng Muhammad Feisal
+
 export default {
   items: [
     {
-      name: 'Dashboard',
-      url: '/dashboard',
-      icon: 'icon-speedometer',
-      badge: {
-        variant: 'primary',
-        text: 'NEW'
-      }
+      name: 'Welcome',
+      url: '/welcome',
+      icon: 'icon-star'
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'Foundation',
       class: '',
       wrapper: {
         element: '',
@@ -26,6 +25,11 @@ export default {
     {
       name: 'Typography',
       url: '/theme/typography',
+      icon: 'icon-pencil'
+    },
+    {
+      name: 'Spacing',
+      url: '/theme/spacing',
       icon: 'icon-pencil'
     },
     {
@@ -227,59 +231,36 @@ export default {
     },
     {
       title: true,
-      name: 'Extras'
+      name: 'Page Sample'
     },
     {
-      name: 'Pages',
-      url: '/pages',
-      icon: 'icon-star',
-      children: [
-        {
-          name: 'Login',
-          url: '/pages/login',
-          icon: 'icon-star'
-        },
-        {
-          name: 'Register',
-          url: '/pages/register',
-          icon: 'icon-star'
-        },
-        {
-          name: 'Error 404',
-          url: '/pages/404',
-          icon: 'icon-star'
-        },
-        {
-          name: 'Error 500',
-          url: '/pages/500',
-          icon: 'icon-star'
-        }
-      ]
-    },
-    {
-      name: 'Disabled',
+      name: 'Dashboard',
       url: '/dashboard',
-      icon: 'icon-ban',
+      icon: 'icon-speedometer',
       badge: {
-        variant: 'secondary',
+        variant: 'primary',
         text: 'NEW'
-      },
-      attributes: { disabled: true },
+      }
     },
     {
-      name: 'Download CoreUI',
-      url: 'http://coreui.io/vue/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: 'noopener' }
+      name: 'Login',
+      url: '/pages/login',
+      icon: 'icon-star'
     },
     {
-      name: 'Try CoreUI PRO',
-      url: 'http://coreui.io/pro/vue/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: 'noopener' }
+      name: 'Register',
+      url: '/pages/register',
+      icon: 'icon-star'
     },
+    {
+      name: 'Error 404',
+      url: '/pages/404',
+      icon: 'icon-star'
+    },
+    {
+      name: 'Error 500',
+      url: '/pages/500',
+      icon: 'icon-star'
+    }
   ]
 }

@@ -5,6 +5,7 @@ import Router from 'vue-router'
 const DefaultContainer = () => import('@/containers/DefaultContainer')
 
 // Views
+const Welcome = () => import('@/views/Welcome')
 const Dashboard = () => import('@/views/Dashboard')
 
 const Colors = () => import('@/views/theme/Colors')
@@ -67,10 +68,15 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/dashboard',
+      redirect: '/welcome',
       name: 'Home',
       component: DefaultContainer,
       children: [
+        {
+          path: 'welcome',
+          name: 'Welcome',
+          component: Welcome
+        },
         {
           path: 'dashboard',
           name: 'Dashboard',

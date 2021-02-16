@@ -1,1 +1,18 @@
 // Here you can add other styles
+
+$cashbac-10:  #E9F6FC !default; // lighten($gray-base, 85%);
+$cashbac-40:  #51BDE9 !default; // lighten($gray-base, 80%);
+$cashbac-blue:  #26ade4 !default; // lighten($gray-base, 70%);
+$cashbac-60:  #1E8AB6!default; // lighten($gray-base, 60%);
+$cashbac-80:  #0F455B !default; // lighten($gray-base, 50%);
+
+$cashbacs: () !default;
+$cashbacs: map-merge(
+  (
+    "10": $cashbac-10,
+    "40": $cashbac-40,
+    "60": $cashbac-60,
+    "80": $cashbac-80,
+  ),
+  $cashbacs
+);
