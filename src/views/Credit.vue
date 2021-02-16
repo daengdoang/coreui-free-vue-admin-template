@@ -2,7 +2,7 @@
   <div class="animated fadeIn">
    
     <b-alert show dismissible >
-      Welcome to Cashbac Web UI Kit! <b>Please note:</b> This is for internal purpose usage only.
+      <b>Please note:</b> This is for internal purpose usage only.
     </b-alert>
     
      <!-- HERO -->
@@ -10,11 +10,10 @@
     <div>
       <b-jumbotron bg-variant="white" text-variant="black" border-variant="">
         <template slot="header">
-          Cashbac Web UI Kit
+          Credit
         </template>
         <template slot="lead">
-          This is a collection of guidelines and components which can be used to create amazing user experiences. 
-          Foundations introduces you to Cashbac's principles while Components lists out the bits and pieces that make up Cashbac Design System.
+          This page deicated as hall of fame from Cashbac Web UI Kit
         </template>
         <hr class="my-4">
       </b-jumbotron>
@@ -25,9 +24,9 @@
     <b-row>
       <b-col sm="6" md="4">
         <b-card>
-          <i class="icon-layers icons font-2xl d-block mt-4"></i>
+          <i class="icon-globe icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Foundation</h3>
+          <h3>Cashbac Ops Dashboard</h3>
           <p> Know the foundation how to use Web UI Kit, to build web products at Cashbac.</p>
           <p> </p>
           <b-button size="lg" variant="primary" block to="/foundation/">Get Started</b-button>
@@ -35,9 +34,9 @@
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <i class="icon-puzzle icons font-2xl d-block mt-4"></i>
+          <i class="icon-globe icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Components</h3>
+          <h3>Merchant Dashboard</h3>
           <p>Get to know components in Cashbac Web UI Kit. Please read one by one carefully :)</p>
           <p></p>
           <b-button size="lg" variant="primary" block to="/base/">See Components</b-button>  
@@ -45,9 +44,9 @@
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <i class="icon-docs icons font-2xl d-block mt-4"></i>
+          <i class="icon-globe icons font-2xl d-block mt-4"></i>
           <p> </p>
-          <h3>Page Sample</h3>
+          <h3>Cashbac Landing Page</h3>
           <p> Various page samples that developed for best practice using Cashbac Web UI Kit</p>
           <p></p>
           <b-button size="lg" variant="primary" block to="/dashboard">See Samples</b-button>
@@ -59,6 +58,6 @@
 
 <script>
 export default {
-  name: 'welcome'
+  name: 'credit'
 }
 </script>

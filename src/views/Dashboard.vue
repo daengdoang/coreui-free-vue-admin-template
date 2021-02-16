@@ -207,7 +207,7 @@
     </b-row>
     <b-row>
       <b-col md="12">
-        <b-card header="Traffic &amp; Sales">
+        <b-card header="Traffic">
           <b-row>
             <b-col sm="12" lg="6">
               <b-row>
@@ -409,6 +409,11 @@
             </b-col>
           </b-row>
           <br/>
+          </b-card>
+
+          <!-- SALES -->
+        
+          <b-card header="Sales">
           <b-table class="mb-0 table-outline" responsive="sm" hover :items="tableItems" :fields="tableFields" head-variant="light">
             <div slot="avatar" class="avatar" slot-scope="item">
               <img :src="item.value.url" class="img-avatar" alt="">
@@ -525,7 +530,7 @@ export default {
       ],
       tableFields: {
         avatar: {
-          label: '<i class="icon-people"></i>',
+          label: 'Profile Image',
           class: 'text-center'
         },
         user: {

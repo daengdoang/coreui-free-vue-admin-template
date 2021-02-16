@@ -7,6 +7,8 @@ const DefaultContainer = () => import('@/containers/DefaultContainer')
 // Views
 const Welcome = () => import('@/views/Welcome')
 const Dashboard = () => import('@/views/Dashboard')
+const Roadmap = () => import('@/views/Roadmap')
+const Credit = () => import('@/views/Credit')
 
 
 //Foundation
@@ -81,6 +83,16 @@ export default new Router({
           path: 'welcome',
           name: 'Welcome',
           component: Welcome
+        },
+        {
+          path: 'roadmap',
+          name: 'Roadmap',
+          component: Roadmap
+        },
+        {
+          path: 'credit',
+          name: 'Credit',
+          component: Credit
         },
         {
           path: 'dashboard',

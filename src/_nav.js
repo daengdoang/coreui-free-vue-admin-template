@@ -19,12 +19,16 @@ export default {
     },
     {
       name: 'Roadmap',
-      url: '/welcome',
-      icon: 'icon-directions'
+      url: '/roadmap',
+      icon: 'icon-directions',
+      badge: {
+        variant: 'success',
+        text: 'New'
+      }
     },
     {
       name: 'Credit',
-      url: '/welcome',
+      url: '/credit',
       icon: 'icon-book-open'
     },
     {
@@ -39,17 +43,17 @@ export default {
     {
       name: 'Colors',
       url: '/foundation/colors',
-      icon: 'icon-badge'
+      icon: 'icon-layers'
     },
     {
       name: 'Typography',
       url: '/foundation/typography',
-      icon: 'icon-badge'
+      icon: 'icon-layers'
     },
     {
       name: 'Icons',
       url: '/icons',
-      icon: 'icon-badge',
+      icon: 'icon-layers',
       children: [
         {
           name: 'CoreUI Icons',
@@ -79,7 +83,7 @@ export default {
     {
       name: 'Spacing',
       url: '/foundation/spacing',
-      icon: 'icon-badge',
+      icon: 'icon-layers',
       badge: {
         variant: 'danger',
         text: 'WIP'

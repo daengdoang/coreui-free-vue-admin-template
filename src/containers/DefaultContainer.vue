@@ -20,7 +20,7 @@
       <AsideToggler class="d-lg-none" mobile />
       -->
     </AppHeader>
-    <div class="app-body">
+    <div class="app-body" >
       <AppSidebar fixed>
         <SidebarHeader/>
         <SidebarForm/>
