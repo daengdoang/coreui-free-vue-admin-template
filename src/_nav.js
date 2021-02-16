@@ -77,14 +77,14 @@ export default {
       icon: 'icon-puzzle',
       children: [
         {
-          name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
-          icon: 'icon-puzzle'
+          name: 'Alerts',
+          url: '/notifications/alerts',
+          icon: 'icon-bell'
         },
         {
-          name: 'Cards',
-          url: '/base/cards',
-          icon: 'icon-puzzle'
+          name: 'Badges',
+          url: '/notifications/badges',
+          icon: 'icon-bell'
         },
         {
           name: 'Carousels',
@@ -97,33 +97,8 @@ export default {
           icon: 'icon-puzzle'
         },
         {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'icon-puzzle'
-        },
-        {
-          name: 'Jumbotrons',
-          url: '/base/jumbotrons',
-          icon: 'icon-puzzle'
-        },
-        {
           name: 'List Groups',
           url: '/base/list-groups',
-          icon: 'icon-puzzle'
-        },
-        {
-          name: 'Navs',
-          url: '/base/navs',
-          icon: 'icon-puzzle'
-        },
-        {
-          name: 'Navbars',
-          url: '/base/navbars',
-          icon: 'icon-puzzle'
-        },
-        {
-          name: 'Paginations',
-          url: '/base/paginations',
           icon: 'icon-puzzle'
         },
         {
@@ -147,11 +122,6 @@ export default {
           icon: 'icon-puzzle'
         },
         {
-          name: 'Tabs',
-          url: '/base/tabs',
-          icon: 'icon-puzzle'
-        },
-        {
           name: 'Tooltips',
           url: '/base/tooltips',
           icon: 'icon-puzzle'
@@ -159,10 +129,15 @@ export default {
       ]
     },
     {
-      name: 'Buttons',
-      url: '/buttons',
+      name: 'Forms and Buttons',
+      url: '/base/forms',
       icon: 'icon-cursor',
       children: [
+        {
+          name: 'Forms',
+          url: '/base/forms',
+          icon: 'icon-puzzle'
+        },
         {
           name: 'Buttons',
           url: '/buttons/standard-buttons',
@@ -185,45 +160,82 @@ export default {
         }
       ]
     },
+    //NAVIGATION
     {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'icon-pie-chart'
-    },
-    {
-      name: 'Notifications',
-      url: '/notifications',
-      icon: 'icon-bell',
+      name: 'Navigation',
+      url: '/base',
+      icon: 'icon-puzzle',
       children: [
         {
-          name: 'Alerts',
-          url: '/notifications/alerts',
-          icon: 'icon-bell'
+          name: 'Breadcrumbs',
+          url: '/base/breadcrumbs',
+          icon: 'icon-puzzle'
         },
         {
-          name: 'Badges',
-          url: '/notifications/badges',
-          icon: 'icon-bell'
+          name: 'Navs',
+          url: '/base/navs',
+          icon: 'icon-puzzle'
+        },
+        {
+          name: 'Navbars',
+          url: '/base/navbars',
+          icon: 'icon-puzzle'
+        },
+        {
+          name: 'Paginations',
+          url: '/base/paginations',
+          icon: 'icon-puzzle'
+        },
+        {
+          name: 'Tabs',
+          url: '/base/tabs',
+          icon: 'icon-puzzle'
+        },
+      ]
+    },
+
+    //PATTERNS
+
+    {
+      name: 'Patterns',
+      url: '/base/cards',
+      icon: 'icon-star',
+      children: [
+        {
+          name: 'Cards',
+          url: '/base/cards',
+          icon: 'icon-puzzle'
+        },
+        {
+          name: 'Charts',
+          url: '/charts',
+          icon: 'icon-pie-chart'
+        },
+        {
+          name: 'Jumbotrons',
+          url: '/base/jumbotrons',
+          icon: 'icon-puzzle'
         },
         {
           name: 'Modals',
           url: '/notifications/modals',
           icon: 'icon-bell'
+        },
+        {
+          name: 'Widgets',
+          url: '/widgets',
+          icon: 'icon-calculator',
+          badge: {
+            variant: 'primary',
+            text: 'NEW'
+          }
         }
       ]
     },
     {
-      name: 'Widgets',
-      url: '/widgets',
-      icon: 'icon-calculator',
-      badge: {
-        variant: 'primary',
-        text: 'NEW'
-      }
-    },
-    {
       divider: true
     },
+    //PAGES
     {
       title: true,
       name: 'Page Sample'

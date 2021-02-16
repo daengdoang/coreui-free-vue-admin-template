@@ -16,7 +16,7 @@
 
           <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-          <b-navbar-brand href="#">NavBar</b-navbar-brand>
+          <b-navbar-brand href="#">Cashbac</b-navbar-brand>
 
           <b-collapse is-nav id="nav_collapse">
 
@@ -65,7 +65,7 @@
           <b-navbar variant="faded" type="light">
             <b-navbar-brand tag="h1" href="#">
               <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV">
-              BootstrapVue
+              Cashbac Dashboard
             </b-navbar-brand>
           </b-navbar>
         </div>
@@ -80,7 +80,7 @@
         <div>
           <b-navbar toggleable type="light" variant="light">
             <b-navbar-toggle target="nav_text_collapse"></b-navbar-toggle>
-            <b-navbar-brand>BootstrapVue</b-navbar-brand>
+            <b-navbar-brand>Cashbac Admin</b-navbar-brand>
             <b-collapse is-nav id="nav_text_collapse">
               <b-navbar-nav>
                 <b-nav-text>Navbar text</b-nav-text>
