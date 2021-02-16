@@ -20,7 +20,7 @@ export default {
     {
       name: 'Roadmap',
       url: '/welcome',
-      icon: 'icon-target'
+      icon: 'icon-directions'
     },
     {
       name: 'Credit',
