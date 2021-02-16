@@ -15,7 +15,9 @@
     <b-row>
       <b-col sm="6" md="4">
         <b-card>
-          <h1>Foundation</h1>
+          <i class="icon-layers icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Foundation</h3>
           <p> Get to know how we use Web UI Kit, to build products at Cashbac.</p>
           <p> </p>
           <b-button size="lg" variant="primary" block>Get Started</b-button>
@@ -23,7 +25,9 @@
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <h1>Components</h1>
+          <i class="icon-badge icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Components</h3>
           <p>Get to know components in Cashbac Web UI Kit.</p>
           <p></p>
           <b-button size="lg" variant="primary" block>See Components</b-button>  
@@ -31,7 +35,9 @@
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <h1>Page Sample</h1>
+          <i class="icon-emotsmile icons font-2xl d-block mt-4"></i>
+          <p> </p>
+          <h3>Page Sample</h3>
           <p> Various page samples that developed for best practice using Web UI Kit</p>
           <p></p>
           <b-button size="lg" variant="primary" block>See Samples</b-button>
