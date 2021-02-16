@@ -10,16 +10,106 @@
         Spacing
       </div>
       <div class="card-body">
-        <p>Our spacing is based on a 4-pixel grid, please use only these sizes:</p>
-        <p>4  xx-small</p>
-        <p>8  x-small</p>
-        <p>12 small</p>
-        <p>16 medium</p>
-        <p>24 large</p>
-        <p>32 x-large</p>
-        <p>40 xx-large</p>
-        <p>52 xxx-large</p>
-        
+        <p>Our spacing is based on a 4-pixel grid, please use only these sizes:</p>        
+        <br />
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Size Name</th>
+              <th>Value</th>
+              <th>Example of use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>xx-small</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">4</p>
+              </td>
+              <td>
+                <p>Great for really small spaces like connecting an error message to form, eg.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>x-small</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">8</p>
+              </td>
+              <td>
+                <p>Great when you need to connect related components, like a header and a description.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>small</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">12</p>
+              </td>
+              <td>
+                <p>-</p>
+              </td>
+            <tr>
+              <td>
+                <p>medium</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">16</p>
+              </td>
+              <td>
+                <p>16	Great for inner padding, left & right padding of the screen when placing content on mobile.</p>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>large</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">24</p>
+              </td>
+              <td>
+                <p>	Great for left & right inner padding in sections.</p>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>large</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">32</p>
+              </td>
+              <td>
+                <p>	-</p>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>x-large</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">40</p>
+              </td>
+              <td>
+                <p>	-</p>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>xx-large</p>
+              </td>
+              <td>
+                <p style="font-weight: bold;">52</p>
+              </td>
+              <td>
+                <p>	Great for space between illustration and header.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
