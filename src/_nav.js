@@ -15,7 +15,7 @@ export default {
     {
       name: 'Welcome',
       url: '/welcome',
-      icon: 'icon-star'
+      icon: 'icon-emotsmile'
     },
     {
       name: 'Roadmap',
@@ -277,38 +277,38 @@ export default {
       name: 'Page Sample'
     },
     {
-      name: 'Login Page',
-      url: '/pages/login',
-      icon: 'icon-emotsmile'
-    },
-    {
-      name: 'Register Page',
-      url: '/pages/register',
-      icon: 'icon-emotsmile'
-    },
-    {
-      name: 'Error 404 Page',
-      url: '/pages/404',
-      icon: 'icon-emotsmile'
-    },
-    {
-      name: 'Error 500 Page',
-      url: '/pages/500',
-      icon: 'icon-emotsmile'
-    },
-    {
       name: 'Dashboard',
       url: '/dashboard',
-      icon: 'icon-emotsmile',
+      icon: 'icon-docs',
       badge: {
         variant: 'primary',
         text: 'NEW'
       }
     },
     {
+      name: 'Login Page',
+      url: '/pages/login',
+      icon: 'icon-docs'
+    },
+    {
+      name: 'Register Page',
+      url: '/pages/register',
+      icon: 'icon-docs'
+    },
+    {
+      name: 'Error 404 Page',
+      url: '/pages/404',
+      icon: 'icon-docs'
+    },
+    {
+      name: 'Error 500 Page',
+      url: '/pages/500',
+      icon: 'icon-docs'
+    },
+    {
       name: 'Go to Cashbac Web',
       url: 'http://cashbac.com/',
-      icon: 'icon-emotsmile',
+      icon: 'icon-globe',
       class: 'mt-auto',	
       variant: 'success',	
       attributes: { target: '_blank', rel: 'noopener' }	

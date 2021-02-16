@@ -1,9 +1,12 @@
 <template>
   <div class="animated fadeIn">
-    <!-- HERO -->
-  <b-alert show dismissible>
-    Welcome to Cashbac Web UI Kit. Please note: This is for internal purpose usage only.
-  </b-alert>
+   
+    <b-alert show dismissible>
+      Welcome to Cashbac Web UI Kit. Please note: This is for internal purpose usage only.
+    </b-alert>
+    
+     <!-- HERO -->
+
     <div>
       <b-jumbotron bg-variant="white" text-variant="black" border-variant="">
         <template slot="header">
@@ -42,38 +45,13 @@
       </b-col>
       <b-col sm="6" md="4">
         <b-card >
-          <i class="icon-emotsmile icons font-2xl d-block mt-4"></i>
+          <i class="icon-docs icons font-2xl d-block mt-4"></i>
           <p> </p>
           <h3>Page Sample</h3>
           <p> Various page samples that developed for best practice using Web UI Kit</p>
           <p></p>
           <b-button size="lg" variant="primary" block to="/dashboard">See Samples</b-button>
         </b-card>
-      </b-col>
-      <b-col sm="6" md="4">
-        <transition name="fade">
-          <b-card class="bg-secondary" no-body v-if="show">
-            <div slot="header">
-              Card with header actions
-              <div class="card-header-actions">
-                <b-link href="#" class="card-header-action btn-setting">
-                  <i class="icon-settings"></i>
-                </b-link>
-                <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
-                  <i class="icon-arrow-up"></i>
-                </b-link>
-                <b-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
-                  <i class="icon-close"></i>
-                </b-link>
-              </div>
-            </div>
-            <b-collapse id="collapse1" visible>
-              <b-card-body>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-              </b-card-body>
-            </b-collapse>
-          </b-card>
-        </transition>
       </b-col>
     </b-row>
   </div>
